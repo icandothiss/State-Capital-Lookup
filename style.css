@@ -1,0 +1,57 @@
+.head {
+  display: flex;
+  font-size: 24px;
+  color: white;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: black;
+}
+input {
+  width: 700px;
+  height: 40px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  padding-left: 19px;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.country-info {
+  color: white;
+  width: 650px;
+  background-color: #242324;
+  height: 70px;
+  margin-bottom: 10px;
+  padding: 15px;
+  padding-left: 55px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+.capital {
+  font-size: 2em;
+  color: #767472;
+  margin-bottom: 10px;
+}
+.capital span {
+  color: #2f93cc;
+}
+.lat-long {
+  color: #767472;
+}
+#icon {
+  display: flex;
+  align-items: center;
+  font-size: 44px;
+  padding-right: 17px;
+}
+.hidden {
+  display: none;
+}
+.country,
+.abbr {
+  color: #767472 !important;
+}
